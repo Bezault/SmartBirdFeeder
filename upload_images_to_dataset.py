@@ -27,7 +27,7 @@ for text in search_text:
         img_name = "&name="+text+str(j)
         upload_url = "".join([
             "https://api.roboflow.com/dataset/birds-3emme/upload",
-            "?api_key=t9LpouFpdVyt",
+            "?api_key=xxxxxxx", #Replace with your API key
             img_name,
             "&split=train",
             "&image=" + urllib.parse.quote_plus(img_url)
